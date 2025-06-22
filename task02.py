@@ -1,6 +1,6 @@
-shablon = "{mahsulot} mahsuloti narxi {narx}"
+text = "{product} price {price}"
 
-mahsulot = input("Maxsulot nomini kiriting : ")
-narx = 1.5
+product = input("enter the name of product : ")
+price = 1.5
 
-print(shablon.format(narx=narx, mahsulot=mahsulot))
+print(text.format(price = price, product = product))
